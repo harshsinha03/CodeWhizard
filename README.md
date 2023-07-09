@@ -12,6 +12,13 @@ Project Overview
 
 The goal of this project was to create a GitHub application using Probot and integrate it with CodeX-API to execute code in response to pull requests. The application would validate the pull request, extract code, execute it, and generate comments with the output or appropriate error messages.
 
+Results:
+----------------
+Success ( When the language and input are mentioned and /executed command is given ) : [success](/gallery/success)
+----------------
+Error ( When the disclaimer given below is not followed properly ): [error](/gallery/error)
+----------------
+
 *Disclaimer:*
 ----------------
 It is essential to follow the guidelines mentioned below to ensure the proper functioning of the code:
