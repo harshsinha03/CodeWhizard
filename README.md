@@ -14,9 +14,11 @@ The goal of this project was to create a GitHub application using Probot and int
 
 Results:
 ----------------
-Success ( When the language and input are mentioned and /executed command is given ) : ![success](./gallery/success.png)
+Success ( When the language and input are mentioned and /executed command is given ) : 
+![success](./gallery/success.png)
 ----------------
-Error ( When the disclaimer given below is not followed properly ): ![error](./gallery/error.png)
+Error ( When the disclaimer given below is not followed properly ): 
+![error](./gallery/error.png)
 ----------------
 
 *Disclaimer:*
