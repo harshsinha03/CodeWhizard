@@ -12,7 +12,8 @@ Project Overview
 
 The goal of this project was to create a GitHub application using Probot and integrate it with CodeX-API to execute code in response to pull requests. The application would validate the pull request, extract code, execute it, and generate comments with the output or appropriate error messages.
 
-**Disclaimer:**
+*Disclaimer:*
+----------------
 It is essential to follow the guidelines mentioned below to ensure the proper functioning of the code:
 
 Timing: If you encounter any issues with the code execution, please try again later as there may be temporary server or network issues affecting the execution.
@@ -30,8 +31,9 @@ It is important to provide the language used in your code (e.g., py for Python) 
 When creating a pull request it is mandatory to fill both title and body for the bot to work as the bot needs the parameters in the body for execution and the command */execute* can be written in title as well as body they will both be considered.
 
 **Title of the Pull Request:** [Provide a meaningful title for your pull request]
+----------------
 **Body of the Pull Request:** [Follow the correct format mentioned above]
-
+----------------
 
 Project Details
 ---------------
