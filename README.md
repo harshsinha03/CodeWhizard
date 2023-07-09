@@ -2,6 +2,7 @@
 # CodeWhizard
 
 Click Here for Documentaion: [docs](/DOCUMENTATION.md)
+Click Here for Demo:[link](https://drive.google.com/file/d/1ClO2ucNySe2ChxjtfV3lhxDOL24wXL3_/view?usp=sharing)
 ## Summary
 
 Project Overview
