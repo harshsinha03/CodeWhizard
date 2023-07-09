@@ -15,6 +15,7 @@ module.exports = (app) => {
       const {title,body}=data;
       console.log(title)
       console.log(body)
+
       let titlePR = title.toLowerCase();
       let bodyPR = body.toLowerCase();
       
@@ -23,7 +24,6 @@ module.exports = (app) => {
         return;
       }
       try {
-        console.log("trying")
         const res=await github(context);
         if(res.status==400){
           throw new Error(res.message);
