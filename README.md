@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # code-whiz
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app
@@ -31,3 +32,7 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 ## License
 
 [ISC](LICENSE) © 2023 harsh
+=======
+# CodeWhizard
+A Github App that gives the output of the code to users upon creating pull requests
+>>>>>>> origin/master
