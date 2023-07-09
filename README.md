@@ -1,5 +1,7 @@
 
 # CodeWhizard
+
+Click Here for Documentaion: [docs](/DOCUMENTATION.md)
 ## Summary
 
 Project Overview
