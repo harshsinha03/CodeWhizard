@@ -2,9 +2,26 @@
 # CodeWhizard
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app
+## Getting Started
 
-## Setup
+To get started with this project, follow the steps below:
 
+### Prerequisites
+- Node.js (v14 or higher)
+- NPM (Node Package Manager)
+
+### Installation
+
+- Clone the repository from GitHub:
+```bash
+  git clone https://github.com/harshsinha03/CodeWhizard.git
+```
+
+- Change to the project directory:
+```bash
+  cd CodeWhizard
+```
+- Run the App
 ```sh
 # Install dependencies
 npm install
@@ -12,6 +29,7 @@ npm install
 # Run the bot
 npm start
 ```
+###  Setup the .env file according to the instructions provided  
 
 ## Docker
 
