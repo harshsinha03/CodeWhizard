@@ -5,7 +5,7 @@ Click Here for Documentation: [docs](/DOCUMENTATION.md)
 ----------------
 Click Here for Demo:[link](https://drive.google.com/file/d/1ClO2ucNySe2ChxjtfV3lhxDOL24wXL3_/view?usp=sharing)
 ----------------
-# Summary
+# Summary (Detailed information about the project is provided after the results section)
 
 ### Project Overview
 ----------------
