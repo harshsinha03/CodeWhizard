@@ -5,6 +5,41 @@ Click Here for Documentation: [docs](/DOCUMENTATION.md)
 ----------------
 Click Here for Demo:[link](https://drive.google.com/file/d/1ClO2ucNySe2ChxjtfV3lhxDOL24wXL3_/view?usp=sharing)
 ----------------
+
+## File Structure
+### CodeWhizard
+
+* [execution/](./execution)
+  * [executor.js](./execution\executor.js)
+* [gallery/](./gallery)
+  * [error.png](./gallery\error.png)
+  * [success.png](./gallery\success.png)
+* [github/](./github)
+  * [components/](./github\components)
+    * [code.js](./github\components\code.js)
+    * [parameters.js](./github\components\parameters.js)
+  * [index.js](./github\index.js)
+* [test/](./test)
+  * [fixtures/](./test\fixtures)
+    * [issues.opened.json](./test\fixtures\issues.opened.json)
+    * [mock-cert.pem](./test\fixtures\mock-cert.pem)
+  * [index.test.js](./test\index.test.js)
+* [.dockerignore](./.dockerignore)
+* [.env](./.env)
+* [.env.example](./.env.example)
+* [.gitignore](./.gitignore)
+* [app.yml](./app.yml)
+* [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+* [comment.js](./comment.js)
+* [CONTRIBUTING.md](./CONTRIBUTING.md)
+* [Dockerfile](./Dockerfile)
+* [DOCUMENTATION.md](./DOCUMENTATION.md)
+* [index.js](./index.js)
+* [LICENSE](./LICENSE)
+* [package-lock.json](./package-lock.json)
+* [package.json](./package.json)
+* [README.md](./README.md)
+
 # Summary (Detailed information about the project is provided after the results section)
 
 ### Project Overview
@@ -121,9 +156,20 @@ The current implementation supports handling only single-file changes in pull re
 - qs: A library for serializing and parsing URL query strings
 - diff: A javascript text differencing implementation.
 
-The project followed best practices to ensure secure and efficient code execution within the GitHub environment.
+### The project followed best practices to ensure secure and efficient code execution within the GitHub environment.
 
 Overall, the GitHub application successfully executes code based on specific commands in pull requests and provides feedback through comments. It can be further customized and expanded based on specific requirements and use cases.
+
+### Obstacles Faced:
+
+- Handling Multi-File Changes:The project currently supports single-file changes, so it will require additional logic and handling to accommodate multi-file scenarios.
+- Improving Error Handling:  While error handling mechanisms were implemented, I realized the need for more detailed error messages and a smoother error reporting system. This would help users better understand and troubleshoot any issues that arise.
+
+### Future Scope of Improvement:
+
+- Multi-Language Support: Add more languages than the current set to appeal more users.
+- Code Analysis and Security: Detailed code analysis have to be done to make the app optimized for improved efficiency and less excecution time and adding security checks will solve some vulnerability issues.
+- Testing : This would involve thorough unit testing, integration testing, and performance testing to make the app more robust and effcient by handling edge cases and making it more optimized.
 
 ### Contributing
 
