@@ -167,6 +167,7 @@ Overall, the GitHub application successfully executes code based on specific com
 
 ### Future Scope of Improvement:
 
+- Comments: Currently they are posted under user IDs for a more personalized experience. However, as the user base increases, it is necessary to distinguish between user and AI-generated comments. Therefore, in the future, comments from the AI assistant will be clearly identified as bot-generated to have transparency.
 - Multi-Language Support: Add more languages than the current set to appeal more users.
 - Code Analysis and Security: Detailed code analysis have to be done to make the app optimized for improved efficiency and less excecution time and adding security checks will solve some vulnerability issues.
 - Testing : This would involve thorough unit testing, integration testing, and performance testing to make the app more robust and effcient by handling edge cases and making it more optimized.
