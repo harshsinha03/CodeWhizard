@@ -125,7 +125,7 @@ Validation checks were added to ensure that the pull request met specific criter
 
 ### Code Extraction
 ---------------
-Logic was developed to extract the code from the pull request. The GitHub REST API was used to retrieve the content of the file associated with the pull request, ensuring that only a single file was considered for code execution.
+Logic was developed to extract the code from the pull request. The GitHub REST API using octokit was used to retrieve the content of the file associated with the pull request, ensuring that only a single file was considered for code execution.
 
 ### Code Execution
 --------------
@@ -149,12 +149,12 @@ The current implementation supports handling only single-file changes in pull re
 
 ### Technologies Used
 -----------------
-- Probot: A framework for building GitHub Apps with Node.js
-- GitHub REST API (via Octokit): Used for interacting with GitHub repositories and creating comments
-- CodeX-API: Integrated for code execution
-- Axios: A library for making HTTP requests
-- qs: A library for serializing and parsing URL query strings
-- diff: A javascript text differencing implementation.
+- [Probot](https://github.com/probot/probot): A framework for building GitHub Apps with Node.js
+- [Octokit](https://github.com/octokit): Used for interacting with GitHub repositories and creating comments
+- [CodeX-API](https://github.com/Jaagrav/CodeX-API): Integrated for code execution
+- [Axios](https://github.com/axios): A library for making HTTP requests
+- [qs](https://github.com/ljharb/qs): A library for serializing and parsing URL query strings
+- [diff](https://github.com/kpdecker/jsdiff): A javascript text differencing implementation.
 
 ### The project followed best practices to ensure secure and efficient code execution within the GitHub environment.
 
